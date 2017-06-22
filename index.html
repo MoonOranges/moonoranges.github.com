@@ -14,26 +14,6 @@ canvas {
 <body onload="startGame()">
 <script>
   
-  function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter The Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "letmein") {
-alert('You Got it Right!');
-window.open('https://moonoranges.github.io/');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-
 var myGamePiece;
 var myObstacles = [];
 var myScore;
@@ -151,14 +131,10 @@ function accelerate(n) {
     myGamePiece.gravity = n;
 }
 </script>
-  <CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
+
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">Fly</button>
-<p>Use the ACCELERATE button to dodge the trains</p>
+<p>Use the Fly button to dodge the trains</p>
 <p>How long can you stay alive? (Don't hold Accelerate down for too long, it sorta glitches the game.)</p>
   <h1>Leaderboard</h1>
   <h2>ZAC - PREMIUM MEMBER 7,075 (WITHOUT CHEATING) Props to him.</h2>
