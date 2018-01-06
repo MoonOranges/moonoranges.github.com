@@ -1,8 +1,8 @@
 
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 512;
-canvas.height = 480;
+canvas.width = 800;
+canvas.height = 1250;
 document.body.appendChild(canvas);
 
 
@@ -31,7 +31,7 @@ monsterImage.src = "images/monster.png";
 
 // Game objects
 var hero = {
-	speed: 256 // movement in pixels per second
+	speed: 300 // movement in pixels per second
 };
 var monster = {};
 var monstersCaught = 0;
