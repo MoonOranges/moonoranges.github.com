@@ -1,8 +1,8 @@
 
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 1250;
-canvas.height = 1250;
+canvas.width = 2100;
+canvas.height = 500;
 document.body.appendChild(canvas);
 
 
