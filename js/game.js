@@ -11,7 +11,7 @@ var bgImage = new Image();
 bgImage.onload = function () {
 	bgReady = true;
 };
-bgImage.src = "images/classroom.png";
+bgImage.src = "images/classroom.jpeg";
 
 // Hero image
 var heroReady = false;
@@ -103,7 +103,7 @@ var render = function () {
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	ctx.fillText("Memes Destroyed: " + monstersCaught, 32, 32);
+	ctx.fillText("Enemies Destroyed: " + monstersCaught, 32, 32);
 };
 
 // The main game loop
