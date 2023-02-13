@@ -19,7 +19,7 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "images/shrek.png";
+heroImage.src = "images/obamna.png";
 
 // Monster image
 var monsterReady = false;
